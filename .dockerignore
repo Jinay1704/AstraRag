@@ -1,0 +1,6 @@
+venv
+.venv
+
+.env
+
+doc_vector_store
