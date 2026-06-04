@@ -15,7 +15,9 @@ logger = logging.getLogger(__name__)
 
 # download & load embedding model
 logger.info("Loading HuggingFace embedding model...")
-embed_model = HuggingFaceEmbedding()
+embed_model = embed_model = HuggingFaceEmbedding(
+    model_name="BAAI/bge-small-en-v1.5"
+)
 
 
 @tool
